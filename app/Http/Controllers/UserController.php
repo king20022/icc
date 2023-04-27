@@ -4,17 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class UserController extends Controller
 {
-    //
-
-
+   
     public function create()
     {
-        return view ('welcome');
+        return view('user.contact');
     }
-
-
-
-    
 }

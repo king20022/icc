@@ -5,13 +5,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Govarnex || Responsive HTML 5 Template</title>
+    <title>Icc Recovery || </title>
     <!-- Favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Govarnex HTML 5 Template " />
+    <meta name="description" content="Icc recovery " />
 
     <!-- fonts -->
     <link
@@ -115,16 +115,11 @@
                     <div class="main-header-one__top-inner">
                         <div class="main-header-one__top-left">
                             <ul class="main-header-one__top-left-menu">
-                                <li><a href="#">Council</a></li>
                                 <li><a href="#">Government</a></li>
                                 <li><a href="#">Complaints</a></li>
                             </ul>
 
-                            <ul class="main-header-one__top-left-social-link">
-                                <li><a href="#"><span class="icon-facebook-app-symbol"></span></a></li>
-                                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                            </ul>
+
                         </div>
 
                         <div class="main-header-one__top-right">
@@ -134,7 +129,7 @@
                                         <span class="icon-mail-1"></span>
                                     </div>
                                     <div class="text">
-                                        <p><a href="mailto:yourmail@email.com">info@example.com</a></p>
+                                        <p><a href="mailto:support@iccrecovery.com">support@iccrecovery.com</a></p>
                                     </div>
                                 </li>
 
@@ -189,18 +184,7 @@
                                             <li class="scrollToLink">
                                                 <a href="#team">Team</a>
                                             </li>
-                                            <li class="scrollToLink">
-                                                <a href="#news">News</a>
-                                            </li>
-                                            {{-- <li class="dropdown">
-                                                <a href="#">Pages</a>
-                                                <ul>
-                                                    <li><a href="index-2.html">Home Page 01</a></li>
-                                                    <li><a href="index-3.html">Home Page 02</a></li>
-                                                    <li><a href="index-4.html">Home Page 03</a></li>
-                                                    <li><a href="index-dark.html">Home Dark</a></li>
-                                                </ul>
-                                            </li> --}}
+
                                         </ul>
 
                                     </div>
@@ -211,12 +195,12 @@
                                         </div>
                                         <div class="text">
                                             <p>Call Anytime</p>
-                                            <a href="tel:3336660000">333 666 0000</a>
+                                            <a href="tel:+1 276 409 0156">+1 276 409 0156</a>
                                         </div>
                                     </div>
 
                                     <div class="main-header-one__bottom-right-btn">
-                                        <a class="btn-one" href="{{ route ('register')}}">
+                                        <a class="btn-one" href="{{ route('register') }}">
                                             <span class="txt">Report an Issues</span>
                                         </a>
                                     </div>
@@ -236,250 +220,212 @@
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
         {{ $slot }}
- <!--Start footer area -->
- <footer class="footer-area">
-    <div class="footer-area__shape1">
-      <img src="assets/images/shapes/footer-v1-shape1.png" alt="#" />
+        <!--Start footer area -->
+        <footer class="footer-area">
+            <div class="footer-area__shape1">
+                <img src="assets/images/shapes/footer-v1-shape1.png" alt="#" />
+            </div>
+            <!--Start Footer-->
+            <div class="footer">
+                <div class="auto-container">
+                    <div class="row">
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
+                            <div class="single-footer-widget">
+                                <div class="our-company-info">
+                                    <div class="footer-logo-style1">
+                                        <a href="index-2.html">
+                                            <img src="/assets/images/resources/logo-1.png" alt="Awesome Logo"
+                                                title="" />
+                                        </a>
+                                    </div>
+                                    <div class="our-company-info__text">
+                                        <p>
+                                            The ICC is committed to addressing the global climate crisis and promoting
+                                            sustainability. The recovery of funds lost in the scam is a significant
+                                            milestone, highlighting the council's financial management and
+                                            accountability
+                                        </p>
+                                    </div>
+                                    <ul class="our-company-info__social-link">
+                                        <li>
+                                            <a href="#"><span class="icon-facebook-app-symbol"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-twitter"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-instagram"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
+                            <div class="single-footer-widget single-footer-widget--explore">
+                                <div class="title">
+                                    <h3>Explore</h3>
+                                </div>
+                                <div class="footer-widget-links">
+                                    <ul>
+                                        <li><a href="#">Government & Elections</a></li>
+                                        <li><a href="#">Real Estate & Buildings</a></li>
+                                        <li><a href="#">Health & Medical</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
+                            <div class="single-footer-widget single-footer-widget--links">
+                                <div class="title">
+                                    <h3>Usefull Links</h3>
+                                </div>
+                                <div class="footer-widget-links">
+                                    <ul>
+                                        <li><a href="#">Fire Services</a></li>
+                                        <li><a href="#">Business & Taxation</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
+                            <div class="single-footer-widget footer-widget--contact">
+                                <div class="title">
+                                    <h3>Contact</h3>
+                                </div>
+                                <div class="footer-widget--contact-info">
+                                    <div class="footer-widget--contact-info-text">
+                                        <p>
+                                            The ICC may have a website with contact info, including email or phone, to
+                                            reach them directly. Visit their website and look for a "Contact Us" or "Report an issues" section.
+                                        </p>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-pin"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>USA Florida</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-mail-1"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    <a
+                                                        href="mailto:support@iccrecovery.com">support@iccrecovery.com</a>
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-telephone"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="tel:+1 276 409 0156">+1 276 409 0156</a></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+                    </div>
+                </div>
+            </div>
+            <!--End Footer-->
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="bottom-inner text-center">
+                        <div class="copyright">
+                            <p>
+                                Copyright 2023 by <a href="#">iccrecovery</a> All Right Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--End footer area-->
     </div>
-    <!--Start Footer-->
-    <div class="footer">
-      <div class="auto-container">
-        <div class="row">
-          <!--Start single footer widget-->
-          <div
-            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <div class="single-footer-widget">
-              <div class="our-company-info">
-                <div class="footer-logo-style1">
-                  <a href="index-2.html">
-                    <img
-                      src="assets/images/footer/footer-logo-1.png"
-                      alt="Awesome Logo"
-                      title=""
-                    />
-                  </a>
-                </div>
-                <div class="our-company-info__text">
-                  <p>
-                    Tincidunt neque pretium lectus donec risus. Mauris mi
-                    tempor nunc orc leo consequat vitae erat gravida
-                    lobortis nec et sagittis.
-                  </p>
-                </div>
-                <ul class="our-company-info__social-link">
-                  <li>
-                    <a href="#"
-                      ><span class="icon-facebook-app-symbol"></span
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="icon-twitter"></span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="icon-instagram"></span></a>
-                  </li>
-                </ul>
-              </div>
+    <!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler">
+                <i class="icon-plus"></i>
+            </span>
+            <div class="logo-box">
+                <a href="index-2.html" aria-label="logo image">
+                    <img src="assets/images/resources/mobile-nav-logo.png" alt="" />
+                </a>
             </div>
-          </div>
-          <!--End single footer widget-->
+            <div class="mobile-nav__container"></div>
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:support@iccrecovery.com">support@iccrecovery.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:+1 276 409 0156">+1 276 409 0156</a>
+                </li>
+            </ul>
 
-          <!--Start single footer widget-->
-          <div
-            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
-            data-wow-delay="0.3s"
-          >
-            <div class="single-footer-widget single-footer-widget--explore">
-              <div class="title">
-                <h3>Explore</h3>
-              </div>
-              <div class="footer-widget-links">
-                <ul>
-                  <li><a href="#">Employment & Jobs</a></li>
-                  <li><a href="#">Government & Elections</a></li>
-                  <li><a href="#">Real Estate & Buildings</a></li>
-                  <li><a href="#">Health & Medical</a></li>
-                  <li><a href="#">Trasport & Traffic</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--End single footer widget-->
-
-          <!--Start single footer widget-->
-          <div
-            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
-            data-wow-delay="0.5s"
-          >
-            <div class="single-footer-widget single-footer-widget--links">
-              <div class="title">
-                <h3>Usefull Links</h3>
-              </div>
-              <div class="footer-widget-links">
-                <ul>
-                  <li><a href="#">Administration</a></li>
-                  <li><a href="#">Fire Services</a></li>
-                  <li><a href="#">Business & Taxation</a></li>
-                  <li><a href="#">Circular’s And Go’s</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--End single footer widget-->
-
-          <!--Start single footer widget-->
-          <div
-            class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp"
-            data-wow-delay="0.7s"
-          >
-            <div class="single-footer-widget footer-widget--contact">
-              <div class="title">
-                <h3>Contact</h3>
-              </div>
-              <div class="footer-widget--contact-info">
-                <div class="footer-widget--contact-info-text">
-                  <p>
-                    Tortor neque sed tellus est eget dui id ante tristique
-                    tristique dolor.
-                  </p>
-                </div>
-                <ul>
-                  <li>
-                    <div class="icon">
-                      <span class="icon-pin"></span>
-                    </div>
-                    <div class="text">
-                      <p>New Hyde Park, NY 11040</p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <span class="icon-mail-1"></span>
-                    </div>
-                    <div class="text">
-                      <p>
-                        <a href="mailto:yourmail@email.com"
-                          >example@govarnex.com</a
-                        >
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div class="icon">
-                      <span class="icon-telephone"></span>
-                    </div>
-                    <div class="text">
-                      <p><a href="tel:3336660000">333 666 0000</a></p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--End single footer widget-->
         </div>
-      </div>
     </div>
-    <!--End Footer-->
 
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="bottom-inner text-center">
-          <div class="copyright">
-            <p>
-              Copyright 2023 by <a href="#">govarnex</a> All Right Reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--End footer area-->
-</div>
-<!-- /.page-wrapper -->
 
-<div class="mobile-nav__wrapper">
-  <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-  <div class="mobile-nav__content">
-    <span class="mobile-nav__close mobile-nav__toggler">
-      <i class="icon-plus"></i>
-    </span>
-    <div class="logo-box">
-      <a href="index-2.html" aria-label="logo image">
-        <img src="assets/images/resources/mobile-nav-logo.png" alt="" />
-      </a>
-    </div>
-    <div class="mobile-nav__container"></div>
-    <ul class="mobile-nav__contact list-unstyled">
-      <li>
-        <i class="fa fa-envelope"></i>
-        <a href="mailto:info@example.com">info@example.com</a>
-      </li>
-      <li>
-        <i class="fa fa-phone-alt"></i>
-        <a href="tel:123456789">444 000 777 66</a>
-      </li>
-    </ul>
-    <div class="mobile-nav__social">
-      <a href="#" class="fab fa-twitter"></a>
-      <a href="#" class="fab fa-facebook-square"></a>
-      <a href="#" class="fab fa-pinterest-p"></a>
-      <a href="#" class="fab fa-instagram"></a>
-    </div>
-  </div>
-</div>
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <i class="icon-down-arrow"></i>
+    </a>
 
-<div class="search-popup">
-  <div class="search-popup__overlay search-toggler"></div>
-  <div class="search-popup__content">
-    <form action="#">
-      <label for="search" class="sr-only">search here</label>
-      <input type="text" id="search" placeholder="Search Here..." />
-      <button type="submit" aria-label="search submit" class="thm-btn">
-        <i class="icon-magnifying-glass"></i>
-      </button>
-    </form>
-  </div>
-</div>
+    <script src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="/assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="/assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="/assets/vendors/circleType/jquery.lettering.min.js"></script>
+    <script src="/assets/vendors/isotope/isotope.js"></script>
+    <script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/vendors/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="/assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="/assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="/assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="/assets/vendors/odometer/odometer.min.js"></script>
+    <script src="/assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="/assets/vendors/parallax/parallax.min.js"></script>
+    <script src="/assets/vendors/swiper/swiper.min.js"></script>
+    <script src="/assets/vendors/timepicker/timePicker.js"></script>
+    <script src="/assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="/assets/vendors/typed-2.0.11/typed-2.0.11.js"></script>
+    <script src="/assets/vendors/vegas/vegas.min.js"></script>
+    <script src="/assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="/assets/vendors/wow/wow.js"></script>
+    <script src="/assets/vendors/jarallax/jarallax.min.js"></script>
 
-<a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-  <i class="icon-down-arrow"></i>
-</a>
-
-<script src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-<script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-<script src="/assets/vendors/bxslider/jquery.bxslider.min.js"></script>
-<script src="/assets/vendors/circleType/jquery.circleType.js"></script>
-<script src="/assets/vendors/circleType/jquery.lettering.min.js"></script>
-<script src="/assets/vendors/isotope/isotope.js"></script>
-<script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
-<script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
-<script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="/assets/vendors/jquery-migrate/jquery-migrate.min.js"></script>
-<script src="/assets/vendors/jquery-ui/jquery-ui.js"></script>
-<script src="/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
-<script src="/assets/vendors/nice-select/jquery.nice-select.min.js"></script>
-<script src="/assets/vendors/nouislider/nouislider.min.js"></script>
-<script src="/assets/vendors/odometer/odometer.min.js"></script>
-<script src="/assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="/assets/vendors/parallax/parallax.min.js"></script>
-<script src="/assets/vendors/swiper/swiper.min.js"></script>
-<script src="/assets/vendors/timepicker/timePicker.js"></script>
-<script src="/assets/vendors/tiny-slider/tiny-slider.min.js"></script>
-<script src="/assets/vendors/typed-2.0.11/typed-2.0.11.js"></script>
-<script src="/assets/vendors/vegas/vegas.min.js"></script>
-<script src="/assets/vendors/wnumb/wNumb.min.js"></script>
-<script src="/assets/vendors/wow/wow.js"></script>
-<script src="/assets/vendors/jarallax/jarallax.min.js"></script>
-
-<!-- Template js -->
-<script src="/assets/js/custom.js"></script>
+    <!-- Template js -->
+    <script src="/assets/js/custom.js"></script>
 </body>
 
 </html>

@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             //
+            $table->enum('role',['user','admin'])->default('user')->after('email');
+            $table->string('number')->nullable()->after('email');
+            $table->string('country')->nullable()->after('email');;
+            $table->string('street')->nullable()->after('email');;
+            $table->string('city')->nullable()->after('email');;
+            $table->string('state')->nullable()->after('email');;
+            $table->string('zip')->nullable()->after('email');;
+            $table->decimal('profit', 10, 2)->nullable()->after('email');
         });
     }
 
@@ -23,6 +31,7 @@ return new class extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             //
+            $table->dropColumn(['street', 'city', 'state', 'zip', 'country','profit ', 'role', 'number']);
         });
     }
 };

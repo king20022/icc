@@ -535,16 +535,16 @@
                                     <h6>Instant Services</h6>
                                 </div>
                                 <h2>
-                                    Quick Services From The <br />
-                                    City Municipal
+                                    Quick Services From <br />
+                                    ICC
                                 </h2>
                             </div>
 
                             <div class="instant-services-style1__content-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Donec felis, suscipit mi urna nulla at tincidunt feugiat
-                                    vulputate.
+                                    Please note that contact information and availability may vary depending on the
+                                    organization and its policies.
+                                    
                                 </p>
                             </div>
                             <div class="instant-services-style1__content-bottom">
@@ -1052,7 +1052,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <h3>Charles  L.</h3>
+                                            <h3>Charles L.</h3>
 
                                         </div>
                                     </div>
@@ -1178,18 +1178,18 @@
                                         <p>Largesty City in our <br />Country</p>
                                     </div>
                                 </li>
-                                <!--End Fact Counter Style1 Counter Box Single-->
+
                             </ul>
                         </div>
                     </div>
-                    <!--End Fact Counter Style1 Right-->
+
                 </div>
             </div>
         </section>
         <!--End Fact Counter Style1-->
 
         <!--Start Events Style1-->
-        <section class="events-style1">
+        {{-- <section class="events-style1">
             <div class="events-style1__bg"
                 style="
               background-image: url(assets/images/backgrounds/events-v1-bg.png);
@@ -1342,46 +1342,12 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--End Events Style1-->
 
-        <!--Start Video Style1-->
-        <section class="video-style1">
-            <div class="video-style1__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-                style="
-              background-image: url(assets/images/backgrounds/video-v1-bg.jpg);
-            ">
-            </div>
-            <div class="auto-container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="video-style1__inner">
-                            <div class="sec-title text-center">
-                                <div class="sub-title">
-                                    <h6>EFFICIENCY - OPPORTUNITY</h6>
-                                </div>
-                                <h2>
-                                    City Municipality Services <br />
-                                    And Departments
-                                </h2>
-                            </div>
-                            <div class="video-box">
-                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                    <div class="video-style1__video-icon">
-                                        <span class="icon-play"></span>
-                                        <i class="ripple"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Video Style1-->
 
         <!--Start Team Style1-->
-        <section class="team-style1" id="team">
+        {{-- <section class="team-style1" id="team">
             <div class="auto-container">
                 <div class="sec-title text-center">
                     <div class="sub-title">
@@ -1566,7 +1532,7 @@
                     <!--End Team Style1 Single-->
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--End Team Style1-->
 
         <!--Start Cta Style1-->
@@ -1593,7 +1559,7 @@
                             </div>
 
                             <div class="cta-style1__btn">
-                                <a class="btn-one" href="#">
+                                <a class="btn-one" href="{{ route('register') }}">
                                     <span class="txt">Become Volunteer</span>
                                 </a>
                             </div>
@@ -1604,172 +1570,7 @@
         </section>
         <!--End Cta Style1-->
 
-        <!--Start Blog Style1-->
-        <section class="blog-style1" id="news">
-            <div class="shape1">
-                <img src="assets/images/shapes/blog-v1-shape1.png" alt="#" />
-            </div>
-            <div class="auto-container">
-                <div class="sec-title text-center">
-                    <div class="sub-title">
-                        <h6>City News</h6>
-                    </div>
-                    <h2>
-                        Know More About The City by <br />
-                        Govarnex Media
-                    </h2>
-                </div>
-                <div class="row">
-                    <!--Start Blog Style1 Single-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-style1__single">
-                            <div class="blog-style1__single-img">
-                                <img src="assets/images/blog/blog-v1-1.jpg" alt="#" />
-                            </div>
 
-                            <div class="blog-style1__single-content">
-                                <div class="date-box">
-                                    <p><span class="icon-calendar"></span> Apr 17, 2023</p>
-                                </div>
-                                <h2>
-                                    <a href="blog-details.html">Self-Guided Driving & Tours Walk Of Greater City</a>
-                                </h2>
-                                <ul class="meta-box">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-user"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="#">Admin</a></p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-comment"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="#">0 Comment</a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="text">
-                                    <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
-                                    </p>
-                                </div>
-                                <div class="blog-style1__single-conten-btn">
-                                    <a class="btn-one" href="blog-details.html">
-                                        <span class="txt">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog Style1 Single-->
-
-                    <!--Start Blog Style1 Single-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
-                        <div class="blog-style1__single">
-                            <div class="blog-style1__single-img">
-                                <img src="assets/images/blog/blog-v1-2.jpg" alt="#" />
-                            </div>
-
-                            <div class="blog-style1__single-content">
-                                <div class="date-box">
-                                    <p><span class="icon-calendar"></span> Apr 17, 2023</p>
-                                </div>
-                                <h2>
-                                    <a href="blog-details.html">Assistance For Homes And Properties Real Estate</a>
-                                </h2>
-                                <ul class="meta-box">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-user"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="#">Admin</a></p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-comment"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="#">0 Comment</a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="text">
-                                    <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
-                                    </p>
-                                </div>
-                                <div class="blog-style1__single-conten-btn">
-                                    <a class="btn-one" href="blog-details.html">
-                                        <span class="txt">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog Style1 Single-->
-
-                    <!--Start Blog Style1 Single-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-style1__single">
-                            <div class="blog-style1__single-img">
-                                <img src="assets/images/blog/blog-v1-3.jpg" alt="#" />
-                            </div>
-
-                            <div class="blog-style1__single-content">
-                                <div class="date-box">
-                                    <p><span class="icon-calendar"></span> Apr 17, 2023</p>
-                                </div>
-                                <h2>
-                                    <a href="blog-details.html">Long-Term Vision Of Health & Attractive Facility</a>
-                                </h2>
-                                <ul class="meta-box">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-user"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="#">Admin</a></p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-comment"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="#">0 Comment</a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="text">
-                                    <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
-                                    </p>
-                                </div>
-                                <div class="blog-style1__single-conten-btn">
-                                    <a class="btn-one" href="blog-details.html">
-                                        <span class="txt">Read More</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Blog Style1 Single-->
-                </div>
-            </div>
-        </section>
-        <!--End Blog Style1-->
     </main>
 </x-guest-layout>
 {{--  --}}
