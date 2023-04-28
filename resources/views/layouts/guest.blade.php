@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Icc Recovery || </title>
     <!-- Favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Icc recovery " />
 
@@ -116,7 +116,7 @@
                         <div class="main-header-one__top-left">
                             <ul class="main-header-one__top-left-menu">
                                 <li><a href="#">Government</a></li>
-                                <li><a href="#">Complaints</a></li>
+                                <li><a href="{{ route('register') }}">Complaints</a></li>
                             </ul>
 
 
@@ -184,6 +184,9 @@
                                             <li class="scrollToLink">
                                                 <a href="#team">Team</a>
                                             </li>
+                                            <li class="scrollToLink">
+                                                <a href="{{ route('register') }}"><small>Create a free account</small></a>
+                                            </li>
 
                                         </ul>
 
@@ -247,17 +250,7 @@
                                             accountability
                                         </p>
                                     </div>
-                                    <ul class="our-company-info__social-link">
-                                        <li>
-                                            <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><span class="icon-twitter"></span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><span class="icon-instagram"></span></a>
-                                        </li>
-                                    </ul>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -387,6 +380,14 @@
                     <i class="fa fa-phone-alt"></i>
                     <a href="tel:+1 276 409 0156">+1 276 409 0156</a>
                 </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a class="btn-one" href="{{ route('register') }}">
+                        <span class="txt">Report an Issue</span>
+                    </a>
+                </li>
+
+
             </ul>
 
         </div>

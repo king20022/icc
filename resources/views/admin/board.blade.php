@@ -28,8 +28,9 @@
                                 </thead>
                                 <tbody>
 
-                                    <tr>
-                                        @foreach ($users as $user)
+
+
+                                        <tr>
                                             <td>
                                                 <div class="d-flex">
                                                     <div class="userDatatable__imgWrapper d-flex align-items-center">
@@ -47,7 +48,7 @@
                                                     </div>
                                                     <div class="userDatatable-inline-title">
                                                         <a href="#" class="text-dark fw-500">
-                                                            <h6> {{ $user->name }}</h6>
+                                                            <h6> </h6>
                                                         </a>
                                                         <p class="d-block mb-0">
 
@@ -57,7 +58,7 @@
                                             </td>
                                             <td>
                                                 <div class="userDatatable-content">
-                                                    {{ $user->email }}
+
                                                 </div>
                                             </td>
 
@@ -67,9 +68,10 @@
                                                     <form
                                                         action="
                                                     ">
-                                                    {{-- {{ route('complaints.edit', $complaint->id) }} --}}
+
                                                         <li>
-                                                            <a href="{{ route('edit', $user->id) }}" class="edit">
+                                                            <a href=""
+                                                                class="edit">
                                                                 <span data-feather="edit"></span></a>
                                                         </li>
                                                     </form>
@@ -83,9 +85,10 @@
                                                     </form>
                                                 </ul>
                                             </td>
-                                        @endforeach
+                                        </tr>
+                                   
 
-                                    </tr>
+
 
 
 

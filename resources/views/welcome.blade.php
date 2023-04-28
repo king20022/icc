@@ -31,20 +31,21 @@
                                     <div class="main-slider-one__content">
                                         <div class="title">
                                             <h2>
-                                                Best of City’s <br />
-                                                Arts & <span>Culture</span> <br />Online
+                                                Our Major<br />
+                                                <span>Goal</span> <br />
                                             </h2>
                                         </div>
                                         <div class="text">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit <br />
-                                                Turpis ridiculus tellus.
+                                                With a focus on understanding your individual situation ,
+                                                <br />
+                                                we support and guidance you need to move forward with
+                                                confidence.
                                             </p>
                                         </div>
                                         <div class="btn-box">
-                                            <a class="btn-one" href="#">
-                                                <span class="txt">Volunteer Tour</span>
+                                            <a class="btn-one" href="{{ route('register') }}">
+                                                <span class="txt">Contact Us</span>
                                             </a>
                                         </div>
                                     </div>
@@ -67,20 +68,20 @@
                                     <div class="main-slider-one__content">
                                         <div class="title">
                                             <h2>
-                                                Best of City’s <br />
-                                                Arts & <span>Culture</span> <br />Online
+                                                Best at what we <br />
+                                               <span>Do</span> <br />
                                             </h2>
                                         </div>
                                         <div class="text">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit <br />
-                                                Turpis ridiculus tellus.
+                                                With expert knowledge and experience in dealing with <br />
+                                                fraudulent
+                                                investments and scams .
                                             </p>
                                         </div>
                                         <div class="btn-box">
-                                            <a class="btn-one" href="#">
-                                                <span class="txt">Volunteer Tour</span>
+                                            <a class="btn-one" href="{{ route('register') }}">
+                                                <span class="txt">Report An Issue</span>
                                             </a>
                                         </div>
                                     </div>
@@ -123,12 +124,12 @@
 
                                 <div class="features-style1__single-content">
                                     <h3>
-                                        <a href="#">Any Type of Medical <br />
-                                            Emergency</a>
+                                        <a href="#">Field operations <br />
+                                        </a>
                                     </h3>
                                     <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
+                                        Responsible for coordinating field agents and investigators who work on-site to
+                                        locate and recover lost or stolen assets.
                                     </p>
                                 </div>
                             </div>
@@ -145,11 +146,11 @@
 
                                 <div class="features-style1__single-content">
                                     <h3>
-                                        <a href="#">For Police and Law <br />Enforcement</a>
+                                        <a href="#">Asset valuation <br /></a>
                                     </h3>
                                     <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
+                                        They would work closely with the legal department to determine the value of
+                                        assets in legal cases and negotiate settlements with debtors.
                                     </p>
                                 </div>
                             </div>
@@ -166,12 +167,12 @@
 
                                 <div class="features-style1__single-content">
                                     <h3>
-                                        <a href="#">Recyling & Garbage <br />
+                                        <a href="#">Training & development <br />
                                             Related</a>
                                     </h3>
                                     <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
+                                        Training new employees and providing ongoing professional development for
+                                        existing staf.
                                     </p>
                                 </div>
                             </div>
@@ -188,11 +189,11 @@
 
                                 <div class="features-style1__single-content">
                                     <h3>
-                                        <a href="#">Travel & Tourism <br />Information</a>
+                                        <a href="#">Customer service <br /></a>
                                     </h3>
                                     <p>
-                                        Tortor neque sed tellus est eget dui id ante tristique
-                                        tristique dolor.
+                                        providing information on the status of recovery efforts, and assisting customers
+                                        with any issues they may encounter.
                                     </p>
                                 </div>
                             </div>
@@ -216,16 +217,15 @@
                                 </div>
                                 <h2>
                                     Meet <span>Ideological</span> <br />
-                                    Leader for Youth <br />Generation
+                                    of ICC<br />
                                 </h2>
                             </div>
                             <div class="about-style1__content-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Donec felis, suscipit mi urna nulla at tincidunt feugiat
-                                    vulputate. Ante facilisis face pellentesque quis egestas
-                                    metus, mauris dictum sollicitudin hendrerit quis in magna
-                                    cras adipiscing posuere augue imperdiet arcu.
+                                    Losing funds to a scam or fraudulent investment can be a devastating experience,
+                                    leaving you feeling helpless and vulnerable. However, with the help ICC
+                                    , you can take steps to recover your lost funds and hold those
+                                    responsible accountable for their actions.
                                 </p>
                             </div>
                             <div class="about-style1__content-signature">
@@ -237,7 +237,7 @@
                                         <span class="icon-check"></span>
                                     </div>
                                     <div class="text-box">
-                                        <p>Improving all types of opportunities</p>
+                                        <p>Improving Recovery</p>
                                     </div>
                                 </li>
 
@@ -255,13 +255,13 @@
                                         <span class="icon-check"></span>
                                     </div>
                                     <div class="text-box">
-                                        <p>Community that grows larger</p>
+                                        <p>Success stories</p>
                                     </div>
                                 </li>
                             </ul>
 
                             <div class="about-style1__content-btn">
-                                <a class="btn-one" href="about.html">
+                                <a class="btn-one" href="{{ route('register') }}">
                                     <span class="txt">Report an Issues</span>
                                 </a>
                             </div>
@@ -294,7 +294,7 @@
 
                             <div class="about-style1__img-client-info">
                                 <h3>Jordon Cooper</h3>
-                                <p>City Mayor</p>
+                                <p> Mayor</p>
                             </div>
                         </div>
                     </div>
@@ -320,7 +320,7 @@
                     <div class="sub-title">
                         <h6>EFFICIENCY - OPPORTUNITY</h6>
                     </div>
-                    <h2>City Municipality Services <br />And Departments</h2>
+                    <h2>ICC Services <br />And Departments</h2>
                 </div>
                 <div class="row">
                     <!--Start Services Style1 Single-->
@@ -333,12 +333,12 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">
-                                            Government And <br />
-                                            Elections</a>
+                                        <a href="#">
+                                            Legal department <br />
+                                            Department </a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -356,11 +356,11 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">Employment And <br />
-                                            Job Planning</a>
+                                        <a href="#">Customer service <br />
+                                            Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -378,12 +378,12 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">
-                                            Real Estate And <br />
-                                            Buildings</a>
+                                        <a href="#">
+                                            Collections <br />
+                                            Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -401,12 +401,12 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">
-                                            Business Tax And <br />
-                                            Finance</a>
+                                        <a href="#">
+                                            Logistics <br />
+                                            Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -424,11 +424,11 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">Health & Medical <br />
+                                        <a href="#">IT <br />
                                             Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -446,11 +446,11 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">Finance & Legal <br />
+                                        <a href="#">Field operations <br />
                                             Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -468,11 +468,11 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">Park & Recreation <br />
+                                        <a href="#">Asset valuation <br />
                                             Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -490,12 +490,12 @@
                                 </div>
                                 <div class="services-style1__single-text">
                                     <h3>
-                                        <a href="departments-details.html">
-                                            Sidewalks, Parking <br />
-                                            Highways</a>
+                                        <a href="#">
+                                            Quality control <br />
+                                            Department</a>
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="departments-details.html"><span class="icon-right-arrow"></span></a>
+                                        <a href="#"><span class="icon-right-arrow"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -544,7 +544,7 @@
                                 <p>
                                     Please note that contact information and availability may vary depending on the
                                     organization and its policies.
-                                    
+
                                 </p>
                             </div>
                             <div class="instant-services-style1__content-bottom">
@@ -557,7 +557,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Holiday Trash & Recycling</a>
+                                                        <a href="#">Report an issue</a>
                                                     </div>
                                                 </li>
 
@@ -566,7 +566,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Things To Do In Govarnex</a>
+                                                        <a href="#">Things To Do In ICC</a>
                                                     </div>
                                                 </li>
 
@@ -575,7 +575,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Rent a Picnic Shelter</a>
+                                                        <a href="#">Offer support</a>
                                                     </div>
                                                 </li>
 
@@ -584,7 +584,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Contact City Action Center</a>
+                                                        <a href="#">Advocate for change</a>
                                                     </div>
                                                 </li>
 
@@ -593,7 +593,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Youth Activities Details</a>
+                                                        <a href="#">Provide information and education</a>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -608,7 +608,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Fishing or Boating Permit</a>
+                                                        <a href="#">Provide resources</a>
                                                     </div>
                                                 </li>
 
@@ -617,7 +617,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Get a Birth / Death Certificate </a>
+                                                        <a href="#">success stories </a>
                                                     </div>
                                                 </li>
 
@@ -626,7 +626,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Register My Property Online</a>
+                                                        <a href="#">Daily affirmation</a>
                                                     </div>
                                                 </li>
 
@@ -635,7 +635,7 @@
                                                         <span class="icon-check-mark"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <a href="#">Apply for Submit a Tax Papers </a>
+                                                        <a href="#">Recovery podcasts</a>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1116,7 +1116,7 @@
         <section class="fact-counter-style1">
             <div class="fact-counter-style1__bg"
                 style="
-              background-image: url(assets/images/backgrounds/fact-counter-v1-bg.png);
+              background-image: url(/assets/images/backgrounds/fact-counter-v1-bg.png);
             ">
             </div>
             <div class="auto-container">
@@ -1148,7 +1148,7 @@
                                         <span class="text">M</span>
                                     </div>
                                     <div class="title">
-                                        <p>Total People Lived <br />in Our City</p>
+                                        <p>Total Funds Recovered <br /></p>
                                     </div>
                                 </li>
                                 <!--End Fact Counter Style1 Counter Box Single-->
@@ -1157,12 +1157,12 @@
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
                                         <h2 class="odometer" data-count="7">00</h2>
-                                        <span class="text">km<sup>2</sup></span>
+                                        <span class="text">k</span>
                                     </div>
                                     <div class="title">
                                         <p>
-                                            Square Kilometres <br />
-                                            Region Covers
+                                            Successfull Case <br />
+
                                         </p>
                                     </div>
                                 </li>
@@ -1171,11 +1171,11 @@
                                 <!--Start Fact Counter Style1 Counter Box Single-->
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
-                                        <h2 class="odometer" data-count="3">00</h2>
+                                        <h2 class="odometer" data-count="4">00</h2>
                                         <span class="text">rd</span>
                                     </div>
                                     <div class="title">
-                                        <p>Largesty City in our <br />Country</p>
+                                        <p>Ranking </p>
                                     </div>
                                 </li>
 
