@@ -68,8 +68,8 @@
                                     <div class="main-slider-one__content">
                                         <div class="title">
                                             <h2>
-                                                 what we <br />
-                                               <span>Do</span> <br />
+                                                what we <br />
+                                                <span>Do</span> <br />
                                             </h2>
                                         </div>
                                         <div class="text">
@@ -122,16 +122,17 @@
                                     <span class="icon-Group-3"></span>
                                 </div>
 
-                                {{-- <div class="features-style1__single-content">
-                                    <h3>
+                                <div class="features-style1__single-content">
+                                    {{-- <h3>
                                         <a href="#">Field operations <br />
                                         </a>
-                                    </h3>
+                                    </h3> --}}
                                     <p>
-                                        Responsible for coordinating field agents and investigators who work on-site to
-                                        locate and recover lost or stolen assets.
+                                        The ICC was established to streamline communications with financial institutions
+                                        when individuals become victims to various money scams and as well recover this
+                                        funds to the victims.
                                     </p>
-                                </div> --}}
+                                </div>
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -144,15 +145,16 @@
                                     <span class="icon-Group-1"></span>
                                 </div>
 
-                                {{-- <div class="features-style1__single-content">
-                                    <h3>
+                                <div class="features-style1__single-content">
+                                    {{-- <h3>
                                         <a href="#">Asset valuation <br /></a>
-                                    </h3>
+                                    </h3> --}}
                                     <p>
-                                        They would work closely with the legal department to determine the value of
-                                        assets in legal cases and negotiate settlements with debtors.
+                                        Malicious cyber activity threatens the public's safety and our national and
+                                        economic security.Our goal is to change the behaviour of criminals and
+                                        nation-states who believe they can compromise internet networks
                                     </p>
-                                </div> --}}
+                                </div>
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -165,16 +167,14 @@
                                     <span class="icon-Group-2"></span>
                                 </div>
 
-                                {{-- <div class="features-style1__single-content">
-                                    <h3>
-                                        <a href="#">Training & development <br />
-                                            Related</a>
-                                    </h3>
+                                <div class="features-style1__single-content">
+
                                     <p>
-                                        Training new employees and providing ongoing professional development for
-                                        existing staf.
+                                        The ICC is the lead federal agency for investigating cyber attacks and
+                                        intrusions.We collect, share intelligence and engage with victims while working
+                                        to unmask those committing cyber activities.
                                     </p>
-                                </div> --}}
+                                </div>
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -187,15 +187,15 @@
                                     <span class="icon-Group-4"></span>
                                 </div>
 
-                                {{-- <div class="features-style1__single-content">
-                                    <h3>
-                                        <a href="#">Customer service <br /></a>
-                                    </h3>
+                                <div class="features-style1__single-content">
+
                                     <p>
-                                        providing information on the status of recovery efforts, and assisting customers
-                                        with any issues they may encounter.
+                                        Taking security measures, being alert and aware when connected. Are
+                                        key ways to prevent cyber crimes. The ICC has specially
+                                        trained cyber squads in each of our 56 field offices,working with
+                                        task force partners.
                                     </p>
-                                </div> --}}
+                                </div>
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -278,7 +278,7 @@
                             </div>
                             <div class="shape3"></div>
                             <div class="about-style1__img-inner">
-                                <img src="/assets/images/about/about-v1-img1.png" alt="" />
+                                <img src="/assets/images/about/about-v1-img1.jpeg" alt="" />
                             </div>
                             {{-- <div class="experience-box text-center">
                                 <h2>
@@ -368,28 +368,7 @@
                     </div>
                     <!--End Services Style1 Single-->
 
-                    <!--Start Services Style1 Single-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-style1__single">
-                            <div class="services-style1__single-content text-center">
-                                <div class="services-style1__single-icon">
-                                    <span class="icon-Group-7"></span>
-                                </div>
-                                <div class="services-style1__single-text">
-                                    <h3>
-                                        <a href="#">
-                                            Collections <br />
-                                            Department</a>
-                                    </h3>
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-right-arrow"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Services Style1 Single-->
+
 
                     <!--Start Services Style1 Single-->
                     <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="100ms"
@@ -414,49 +393,7 @@
                     </div>
                     <!--End Services Style1 Single-->
 
-                    <!--Start Services Style1 Single-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-style1__single">
-                            <div class="services-style1__single-content text-center">
-                                <div class="services-style1__single-icon">
-                                    <span class="icon-Group-121"></span>
-                                </div>
-                                <div class="services-style1__single-text">
-                                    <h3>
-                                        <a href="#">IT <br />
-                                            Department</a>
-                                    </h3>
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-right-arrow"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Services Style1 Single-->
 
-                    <!--Start Services Style1 Single-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay="100ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-style1__single">
-                            <div class="services-style1__single-content text-center">
-                                <div class="services-style1__single-icon">
-                                    <span class="icon-Group-9"></span>
-                                </div>
-                                <div class="services-style1__single-text">
-                                    <h3>
-                                        <a href="#">Field operations <br />
-                                            Department</a>
-                                    </h3>
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-right-arrow"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Services Style1 Single-->
 
                     <!--Start Services Style1 Single-->
                     <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="0ms"
@@ -480,28 +417,7 @@
                     </div>
                     <!--End Services Style1 Single-->
 
-                    <!--Start Services Style1 Single-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInRight" data-wow-delay="100ms"
-                        data-wow-duration="1000ms">
-                        <div class="services-style1__single">
-                            <div class="services-style1__single-content text-center">
-                                <div class="services-style1__single-icon">
-                                    <span class="icon-Group-11"></span>
-                                </div>
-                                <div class="services-style1__single-text">
-                                    <h3>
-                                        <a href="#">
-                                            Quality control <br />
-                                            Department</a>
-                                    </h3>
-                                    <div class="btn-box">
-                                        <a href="#"><span class="icon-right-arrow"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Services Style1 Single-->
+
                 </div>
             </div>
         </section>
@@ -521,7 +437,7 @@
                                 <img src="assets/images/shapes/thm-shape1.png" alt="#" />
                             </div>
                             <div class="instant-services-style1__img-inner">
-                                <img src="assets/images/services/instant-services-v1-img1.jpg" alt="#" />
+                                <img src="/assets/images/services/instant-services-v1-img1.jpeg" alt="#" />
                             </div>
                         </div>
                     </div>
@@ -542,8 +458,12 @@
 
                             <div class="instant-services-style1__content-text">
                                 <p>
-                                    Please note that contact information and availability may vary depending on the
-                                    organization and its policies.
+                                    Keep systems and software up to date and install a strong, reputable anti-virus
+                                    program.
+                                    Be careful when connecting to a public Wi-Fi network and do not conduct any
+                                    sensitive transactions, including purchases, when on a public network.
+                                    Create a strong and unique passphrase for each online account and change those
+                                    passphrases regularly.
 
                                 </p>
                             </div>
@@ -1129,7 +1049,7 @@
                                     <h6> Services</h6>
                                 </div>
                                 <h2>
-                                   Total number of current <br />
+                                    Total number of current <br />
                                     Cases
                                 </h2>
                             </div>
@@ -1144,7 +1064,7 @@
                                 <!--Start Fact Counter Style1 Counter Box Single-->
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
-                                       <h2 class="odometer" data-count="22.">000</h2>
+                                        <h2 class="odometer" data-count="22.">000</h2>
                                         <span class="text">M</span>
                                     </div>
                                     <div class="title">

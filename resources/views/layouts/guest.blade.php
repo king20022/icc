@@ -299,8 +299,8 @@
                                 <div class="footer-widget--contact-info">
                                     <div class="footer-widget--contact-info-text">
                                         <p>
-                                            The ICC may have a website with contact info, including email or phone, to
-                                            reach them directly. Visit their website and look for a "Contact Us" or "Report an issues" section.
+                                            The ICC  have a website with contact info, including email or phone, to
+                                            reach them directly. Visit Our website and look for a "File a Complain"  section.
                                         </p>
                                     </div>
                                     <ul>
@@ -348,7 +348,7 @@
                     <div class="bottom-inner text-center">
                         <div class="copyright">
                             <p>
-                                Copyright 2023 by <a href="#">iccrecovery</a> All Right Reserved.
+                                Copyright 2023 by <a href="#">icc</a> All Right Reserved.
                             </p>
                         </div>
                     </div>
@@ -380,7 +380,7 @@
                     <i class="fa fa-phone-alt"></i>
                     <a href="tel:+1 276 409 0156">+1 276 409 0156</a>
                 </li>
-               
+
 
 
             </ul>
