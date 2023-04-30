@@ -68,7 +68,7 @@
                                     <div class="main-slider-one__content">
                                         <div class="title">
                                             <h2>
-                                                Best at what we <br />
+                                                 what we <br />
                                                <span>Do</span> <br />
                                             </h2>
                                         </div>
@@ -122,7 +122,7 @@
                                     <span class="icon-Group-3"></span>
                                 </div>
 
-                                <div class="features-style1__single-content">
+                                {{-- <div class="features-style1__single-content">
                                     <h3>
                                         <a href="#">Field operations <br />
                                         </a>
@@ -131,7 +131,7 @@
                                         Responsible for coordinating field agents and investigators who work on-site to
                                         locate and recover lost or stolen assets.
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -144,7 +144,7 @@
                                     <span class="icon-Group-1"></span>
                                 </div>
 
-                                <div class="features-style1__single-content">
+                                {{-- <div class="features-style1__single-content">
                                     <h3>
                                         <a href="#">Asset valuation <br /></a>
                                     </h3>
@@ -152,7 +152,7 @@
                                         They would work closely with the legal department to determine the value of
                                         assets in legal cases and negotiate settlements with debtors.
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -165,7 +165,7 @@
                                     <span class="icon-Group-2"></span>
                                 </div>
 
-                                <div class="features-style1__single-content">
+                                {{-- <div class="features-style1__single-content">
                                     <h3>
                                         <a href="#">Training & development <br />
                                             Related</a>
@@ -174,7 +174,7 @@
                                         Training new employees and providing ongoing professional development for
                                         existing staf.
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -187,7 +187,7 @@
                                     <span class="icon-Group-4"></span>
                                 </div>
 
-                                <div class="features-style1__single-content">
+                                {{-- <div class="features-style1__single-content">
                                     <h3>
                                         <a href="#">Customer service <br /></a>
                                     </h3>
@@ -195,7 +195,7 @@
                                         providing information on the status of recovery efforts, and assisting customers
                                         with any issues they may encounter.
                                     </p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!--End Features Style1 Single-->
@@ -212,13 +212,13 @@
                     <div class="col-xl-6">
                         <div class="about-style1__content">
                             <div class="sec-title">
-                                <div class="sub-title">
+                                {{-- <div class="sub-title">
                                     <h6>About Leader</h6>
                                 </div>
                                 <h2>
                                     Meet <span>Ideological</span> <br />
                                     of ICC<br />
-                                </h2>
+                                </h2> --}}
                             </div>
                             <div class="about-style1__content-text">
                                 <p>
@@ -262,7 +262,7 @@
 
                             <div class="about-style1__content-btn">
                                 <a class="btn-one" href="{{ route('register') }}">
-                                    <span class="txt">Report an Issues</span>
+                                    <span class="txt">File A Complain</span>
                                 </a>
                             </div>
                         </div>
@@ -271,16 +271,16 @@
                     <div class="col-xl-6">
                         <div class="about-style1__img">
                             <div class="shape1 float-bob-y">
-                                <img src="assets/images/shapes/thm-shape1.png" alt="#" />
+                                <img src="/assets/images/shapes/thm-shape1.png" alt="#" />
                             </div>
                             <div class="shape2 rotate-me">
-                                <img src="assets/images/shapes/thm-shape1.png" alt="#" />
+                                <img src="/assets/images/shapes/thm-shape1.png" alt="#" />
                             </div>
                             <div class="shape3"></div>
                             <div class="about-style1__img-inner">
-                                <img src="assets/images/about/about-v1-img1.png" alt="#" />
+                                <img src="/assets/images/about/about-v1-img1.png" alt="" />
                             </div>
-                            <div class="experience-box text-center">
+                            {{-- <div class="experience-box text-center">
                                 <h2>
                                     <span class="odometer" data-count="20">00</span>
                                 </h2>
@@ -295,7 +295,7 @@
                             <div class="about-style1__img-client-info">
                                 <h3>Jordon Cooper</h3>
                                 <p> Mayor</p>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -1126,11 +1126,11 @@
                         <div class="fact-counter-style1__title">
                             <div class="sec-title">
                                 <div class="sub-title">
-                                    <h6>Instant Services</h6>
+                                    <h6> Services</h6>
                                 </div>
                                 <h2>
-                                    Large Scale of City <br />
-                                    Numbers
+                                   Total number of current <br />
+                                    Cases
                                 </h2>
                             </div>
                         </div>
@@ -1144,7 +1144,7 @@
                                 <!--Start Fact Counter Style1 Counter Box Single-->
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
-                                        <h2 class="odometer" data-count="4.2">00</h2>
+                                       <h2 class="odometer" data-count="22.">000</h2>
                                         <span class="text">M</span>
                                     </div>
                                     <div class="title">
@@ -1156,12 +1156,12 @@
                                 <!--Start Fact Counter Style1 Counter Box Single-->
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
-                                        <h2 class="odometer" data-count="7">00</h2>
+                                        <h2 class="odometer" data-count="8">00</h2>
                                         <span class="text">k</span>
                                     </div>
                                     <div class="title">
                                         <p>
-                                            Successfull Case <br />
+                                            Successfull Cases <br />
 
                                         </p>
                                     </div>
