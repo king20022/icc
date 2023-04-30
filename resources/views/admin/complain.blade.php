@@ -46,6 +46,14 @@
                                                             </div>
                                                         @endforeach
 
+                                                        <div>
+                                                            @foreach ($errors->all() as $err)
+                                                                <label for="edit page"></label>
+                                                                <p class="text-danger text-center">{{ $err }}
+                                                                </p>
+                                                            @endforeach
+                                                        </div>
+
 
                                                         <form method="POST"
                                                             action="{{ route('recovery', $user->id) }}"> @csrf
@@ -56,13 +64,23 @@
                                                                 class="form-group
                                                             mb-25">
                                                                 <label for="phoneNumber5">Recovery Balance</label>
-                                                                <input type="tel" name="profit"
-                                                                    class="form-control"
-                                                                    value="${{ $user->profit }}"
-                                                                    id="phoneNumber5"
-                                                                    placeholder="">
+                                                                <input type="number" name="profit"
+                                                                    class="form-control dollar-input" value="{{ $user->profit }}"
+                                                                    id="phoneNumber5" placeholder="">
 
 
+                                                                <style>
+                                                                    .dollar-input::before {
+                                                                        content: "$";
+                                                                        position: absolute;
+                                                                        left: 10px;
+                                                                    }
+
+                                                                    .dollar-input input {
+                                                                        padding-left: 20px;
+                                                                        /* adjust padding to make space for dollar sign */
+                                                                    }
+                                                                </style>
                                                                 <div
                                                                     class="button-group d-flex pt-25 justify-content-end">
 

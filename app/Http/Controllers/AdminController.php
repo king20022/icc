@@ -39,13 +39,13 @@ class AdminController extends Controller
 
         $user = User::findOrFail($id);
 
-        $request->validate([
-            'profit' => 'required|numeric',
-        ]);
+        // $request->validate([
+        //     'profit' => 'required|numeric',
+        // ]);
 
         $user->profit = $request->profit;
         $user->save();
-        
+
 
         return redirect()->back()->with('success', 'Investor details updated successfully.');
     }
