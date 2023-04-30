@@ -45,18 +45,24 @@
 
 
 
-
+{{--
                         <li>
-                            {{-- {{ route('profile.edit') }} --}}
                             <a href="" class="">
                                 <span data-feather="user" class="nav-icon"></span>
                                 <span class="menu-text">Profile</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href="{{ route('contact') }}" class="">
                                 <span data-feather="message-square" class="nav-icon"></span>
-                                <span class="menu-text">Report</span>
+                                <span class="menu-text">File A Complain</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ route('draw') }}" class="">
+                                <span data-feather="dollar-sign" class="nav-icon"></span>
+                                <span class="menu-text">Withdrawal</span>
                             </a>
                         </li>
 

@@ -5,6 +5,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -62,8 +63,22 @@ class User extends Authenticatable
     }
 
 
-    public function complaints()
+    // public function complain()
+    // {
+    //     return $this->hasMany(Complain::class);
+    // }
+
+    // /**
+    //  * Get all of the comments for the User
+    //  *
+    //  * @return \Illuminate\Database\Eloquent\Relations\HasMany
+    //  */
+    // public function complains(): HasMany
+    // {
+    //     return $this->hasMany(User::class, 'complain_id', 'id');
+    // }
+    public function complains()
     {
-        return $this->hasMany(Complaint::class);
+        return $this->hasMany(Complain::class);
     }
 }

@@ -13,25 +13,40 @@ class AdminController extends Controller
     public function getuser()
     {
         // Retrieve users with the "user" role
-        $users = User::where('role', 'user')->get();
+        $users = User::where('role', 'user')->with('complains')->get();
+
+
+
 
         // Pass the users to the view using compact function
         return view('admin.board', compact('users'));
     }
 
 
-    public function edit()
+    public function edit($id)
     {
 
 
+        $user = User::findOrFail($id);
+
+        $complains = $user->complains;
+        return view('admin.complain', compact('user', 'complains'));
+    }
+
+    public function recover(Request $request, $id)
+    {
 
 
-        $user = User::all();
+        $user = User::findOrFail($id);
 
+        $request->validate([
+            'profit' => 'required|numeric',
+        ]);
 
-        return view('admin.complain', compact('user'));
+        $user->profit = $request->profit;
+        $user->save();
+        
 
-        // // Pass the complains data to the view
-        // return view('',compact('complains'));
+        return redirect()->back()->with('success', 'Investor details updated successfully.');
     }
 }

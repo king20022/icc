@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -25,16 +27,19 @@ Route::get('/', [HomeController::class, 'create'])->name('welcome');
 
 
 
-Route::get('/dashboard', function () {
-    // return view('user.dashboard');
+// Route::get('/dashboard', function () {
+//     // return view('user.dashboard');
 
-    if (Auth::user()->role == 'admin') {
-        return redirect()->route('board');
-    } else if (Auth::user()->role == 'user') {
-        return view('user.dashboard');
-    }
+//     if (Auth::user()->role == 'admin') {
+//         return redirect()->route('board');
+//     } else if (Auth::user()->role == 'user') {
+//         return view('user.dashboard');
+//     }
 
-})->middleware(['auth', 'verified',])->name('dashboard');
+// })->middleware(['auth', 'verified',])->name('dashboard');
+
+Route::get('/dashboard', [HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -51,6 +56,12 @@ Route::middleware('auth', 'user')->group(function () {
 
     Route::get('/dashboard/user', [UserController::class, 'create'])->name('contact');
 
+    Route::post('/dashboard/submit-complaint', [UserController::class, 'submit'])->name('complaint');
+
+
+    Route::get('/dashboard/withdraw', [UserController::class, 'with'])->name('draw');
+
+
 
 });
 
@@ -65,9 +76,12 @@ Route::middleware('auth', 'admin')->group(function () {
 
 
 
-    Route::get('/dashboard/admin', [AdminController::class, 'getuser'])->name('board');
+    Route::get('/admin/dashboard', [AdminController::class, 'getuser'])->name('board');
 
-    Route::get('/dashboard/edit', [AdminController::class, 'edit'])->name('edit');
+    Route::get('/admin/dashboard/{id}/complain', [AdminController::class, 'edit'])->name('edit');
+
+
+    Route::put('/admin/dashboard/cover/{id}', [AdminController::class, 'recover'])->name('recovery');
 });
 
 

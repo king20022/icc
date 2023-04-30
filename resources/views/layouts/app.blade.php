@@ -36,7 +36,7 @@
         <nav class="navbar navbar-light">
             <div class="navbar-left">
                 <a href="#" class="sidebar-toggle">
-                    <img class="svg" src="img/svg/bars.svg" alt="img"></a>
+                    <img class="svg" src="/img/svg/bars.svg" alt="img"></a>
                 <a class="navbar-brand" href="#"><img class="dark bg-dark p-2"
                         src="/assets/images/resources/logo-1.png" alt="Awesome Logo"><img class="light"
                         src="/assets/images/resources/logo-1.png" alt="Awesome Logo"></a>

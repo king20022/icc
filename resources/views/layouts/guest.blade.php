@@ -185,7 +185,7 @@
                                                 <a href="#team">Team</a>
                                             </li>
                                             <li class="scrollToLink">
-                                                <a href="{{ route('register') }}"><small>Create a free account</small></a>
+                                                <a href="{{ route('register') }}"><small>File a Complain</small></a>
                                             </li>
 
                                         </ul>
@@ -202,11 +202,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="main-header-one__bottom-right-btn">
+                                    {{-- <div class="main-header-one__bottom-right-btn">
                                         <a class="btn-one" href="{{ route('register') }}">
-                                            <span class="txt">Report an Issues</span>
+                                            <span class="txt">File a Complain</span>
                                         </a>
-                                    </div>
+                                    </div> --}}
 
                                 </div>
                             </div>
@@ -250,7 +250,7 @@
                                             accountability
                                         </p>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -380,12 +380,7 @@
                     <i class="fa fa-phone-alt"></i>
                     <a href="tel:+1 276 409 0156">+1 276 409 0156</a>
                 </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <a class="btn-one" href="{{ route('register') }}">
-                        <span class="txt">Report an Issue</span>
-                    </a>
-                </li>
+               
 
 
             </ul>

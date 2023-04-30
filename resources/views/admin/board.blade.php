@@ -1,111 +1,91 @@
 <x-app-layout>
-    <div class="contents">
+   
 
-        <div class="container-fluid">
+    <body class="layout-light side-menu overlayScroll">
+        <main class="main-content">
+            <div class="contents">
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="userDatatable global-shadow border p-30 bg-white radius-xl w-100 mb-30">
-                        <div class="table-responsive">
-                            <table class="table mb-0 table-borderless">
-                                <thead>
-                                    <tr class="userDatatable-header">
-                                        <th>
-                                            <div class="d-flex align-items-center">
-                                                <div class="custom-checkbox  check-all">
+                <div class="container-fluid">
 
-                                                    <label for="check-3">
-                                                        <span class="checkbox-text userDatatable-title">Name</span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </th>
-                                        <th>
-                                            <span class="userDatatable-title">email</span>
-                                        </th>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="userDatatable global-shadow border p-30 bg-white radius-xl w-100 mb-30">
+                                <div class="table-responsive">
+                                    <table class="table mb-0 table-borderless">
+                                        <thead>
+                                            <tr class="userDatatable-header">
 
-                                    </tr>
-                                </thead>
-                                <tbody>
+                                                <th>
+                                                    <span class="userDatatable-title">Name</span>
+                                                </th>
+                                                <th>
+                                                    <span class="userDatatable-title">Email</span>
+                                                </th>
+                                                <th>
+                                                    <span class="userDatatable-title">Recovery Balance</span>
+                                                </th>
 
+                                            </tr>
+                                        </thead>
+                                        <tbody>
 
 
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex">
-                                                    <div class="userDatatable__imgWrapper d-flex align-items-center">
-                                                        <div class="checkbox-group-wrapper">
-                                                            <div class="checkbox-group d-flex">
-                                                                <div
-                                                                    class="checkbox-theme-default custom-checkbox checkbox-group__single d-flex">
+                                            @foreach ($users as $user)
+                                                <tr>
 
-                                                                </div>
-                                                            </div>
+                                                    <td>
+                                                        <div class="userDatatable-content">
+                                                            {{ $user->name }}
                                                         </div>
-                                                        {{-- <a href="#"
-                                                            class="profile-image rounded-circle d-block m-0 wh-38"
-                                                            style="background-image:url; background-size: cover;"></a> --}}
-                                                    </div>
-                                                    <div class="userDatatable-inline-title">
-                                                        <a href="#" class="text-dark fw-500">
-                                                            <h6> </h6>
-                                                        </a>
-                                                        <p class="d-block mb-0">
+                                                    </td>
+                                                    <td>
+                                                        <div class="userDatatable-content">
+                                                            {{ $user->email }}
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="userDatatable-content">
+                                                            $ {{ $user->profit }}
 
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="userDatatable-content">
+                                                        </div>
+                                                    </td>
 
-                                                </div>
-                                            </td>
+                                                    <td>
+                                                        <ul class="orderDatatable_actions mb-0 d-flex flex-wrap">
+                                                            <li>
+                                                                {{-- @if ($user->complaints->count() > 0) --}}
+                                                                <a href="{{ route('edit', $user->id) }}" class="view">
+                                                                    <span data-feather="eye"></span>
+                                                                </a>
+                                                            {{-- @else
+                                                               None
+                                                            @endif --}}
+                                                            </li>
 
-
-                                            <td>
-                                                <ul class="orderDatatable_actions mb-0 d-flex flex-wrap">
-                                                    <form
-                                                        action="
-                                                    ">
-
-                                                        <li>
-                                                            <a href=""
-                                                                class="edit">
-                                                                <span data-feather="edit"></span></a>
-                                                        </li>
-                                                    </form>
-                                                    <form
-                                                        action="
-                                                    ">
-                                                        <li>
-                                                            <a href="#" class="remove">
-                                                                <span data-feather="trash-2"></span></a>
-                                                        </li>
-                                                    </form>
-                                                </ul>
-                                            </td>
-                                        </tr>
-                                   
+                                                            <li>
+                                                                <a href="#" class="remove">
+                                                                    <span data-feather="trash-2"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            @endforeach
 
 
 
+                                        </tbody>
+                                    </table>
+                                </div>
 
-
-
-
-
-
-
-                                </tbody>
-                            </table>
+                            </div>
                         </div>
-
                     </div>
                 </div>
-            </div>
-        </div>
 
-    </div>
+            </div>
+        </main>
+
+
+    </body>
 </x-app-layout>
 {{--  --}}
