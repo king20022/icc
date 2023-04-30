@@ -30,7 +30,7 @@ class HomeController extends Controller
         $user = auth()->user();
 
         if ($user->role == 'admin') {
-            return view('board');
+            return redirect()->route('board');
         } else if ($user->role == 'user') {
             return view('user.dashboard', ['user' => $user]);
         } else {
