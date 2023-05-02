@@ -571,6 +571,183 @@
         </section>
         <!--End Instant Services Style1-->
 
+        <!--Start Main Slider -->
+        <section class="main-slider main-slider-one" id="home">
+            <div class="swiper-container thm-swiper__slider"
+                data-swiper-options='{"slidesPerView": 1, "loop": true,
+                "effect": "fade",
+                "pagination": {
+                "el": "#main-slider-pagination",
+                "type": "bullets",
+                "clickable": true
+                },
+                "navigation": {
+                "nextEl": "#main-slider__swiper-button-next",
+                "prevEl": "#main-slider__swiper-button-prev"
+                },
+                "autoplay": {
+                "delay": 5000
+                }}'>
+                <div class="swiper-wrapper">
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="
+                    background-image: url(assets/images/slides/slide-v1-3.jpeg);
+                  ">
+                        </div>
+                        <div class="auto-container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    {{-- <div class="main-slider-one__content">
+                                        <div class="title">
+                                            <h2>
+                                                Our Major<br />
+                                                <span>Goal</span> <br />
+                                            </h2>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                With a focus on understanding your individual situation ,
+                                                <br />
+                                                we support and guidance you need to move forward with
+                                                confidence.
+                                            </p>
+                                        </div>
+                                        <div class="btn-box">
+                                            <a class="btn-one" href="{{ route('register') }}">
+                                                <span class="txt">Contact Us</span>
+                                            </a>
+                                        </div>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="
+                    background-image: url(assets/images/slides/slide-v1-4.jpeg);
+                  ">
+                        </div>
+                        <div class="auto-container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    {{-- <div class="main-slider-one__content">
+                                        <div class="title">
+                                            <h2>
+                                                what we <br />
+                                                <span>Do</span> <br />
+                                            </h2>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                With expert knowledge and experience in dealing with <br />
+                                                fraudulent
+                                                investments and scams .
+                                            </p>
+                                        </div>
+                                        <div class="btn-box">
+                                            <a class="btn-one" href="{{ route('register') }}">
+                                                <span class="txt">Report An Issue</span>
+                                            </a>
+                                        </div>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+
+                    <!--Start Single Swiper Slide-->
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="
+                    background-image: url(assets/images/slides/slide-v1-5.jpeg);
+                  ">
+                        </div>
+                        <div class="auto-container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    {{-- <div class="main-slider-one__content">
+                                        <div class="title">
+                                            <h2>
+                                                what we <br />
+                                                <span>Do</span> <br />
+                                            </h2>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                With expert knowledge and experience in dealing with <br />
+                                                fraudulent
+                                                investments and scams .
+                                            </p>
+                                        </div>
+                                        <div class="btn-box">
+                                            <a class="btn-one" href="{{ route('register') }}">
+                                                <span class="txt">Report An Issue</span>
+                                            </a>
+                                        </div>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+
+                     <!--Start Single Swiper Slide-->
+                     <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="
+                    background-image: url(assets/images/slides/slide-v1-6.jpeg);
+                  ">
+                        </div>
+                        <div class="auto-container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    {{-- <div class="main-slider-one__content">
+                                        <div class="title">
+                                            <h2>
+                                                what we <br />
+                                                <span>Do</span> <br />
+                                            </h2>
+                                        </div>
+                                        <div class="text">
+                                            <p>
+                                                With expert knowledge and experience in dealing with <br />
+                                                fraudulent
+                                                investments and scams .
+                                            </p>
+                                        </div>
+                                        <div class="btn-box">
+                                            <a class="btn-one" href="{{ route('register') }}">
+                                                <span class="txt">Report An Issue</span>
+                                            </a>
+                                        </div>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Swiper Slide-->
+                </div>
+
+                <!-- If we need navigation buttons -->
+                {{-- <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <i class="icon-left-arrow"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <i class="icon-right-arrow"></i>
+                    </div>
+                </div> --}}
+            </div>
+        </section>
+        <!--End Main Slider-->
+
         <!--Start Testimonials Style1-->
         <section class="testimonials-style1">
             <div class="shape1"></div>
@@ -1032,6 +1209,8 @@
         </section>
         <!--End Testimonials Style1-->
 
+
+
         <!--Start Fact Counter Style1-->
         <section class="fact-counter-style1">
             <div class="fact-counter-style1__bg"
@@ -1064,7 +1243,7 @@
                                 <!--Start Fact Counter Style1 Counter Box Single-->
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
-                                        <h2 class="odometer" data-count="22.">000</h2>
+                                        <h2 class="odometer" data-count="23.">000</h2>
                                         <span class="text">M</span>
                                     </div>
                                     <div class="title">
@@ -1076,7 +1255,7 @@
                                 <!--Start Fact Counter Style1 Counter Box Single-->
                                 <li class="fact-counter-style1__counter-box-single text-center">
                                     <div class="counter-box">
-                                        <h2 class="odometer" data-count="8">00</h2>
+                                        <h2 class="odometer" data-count="12">00</h2>
                                         <span class="text">k</span>
                                     </div>
                                     <div class="title">

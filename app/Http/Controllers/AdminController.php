@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Complain;
+use App\Models\Withdrawal;
 use App\Models\User;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -48,5 +51,28 @@ class AdminController extends Controller
 
 
         return redirect()->back()->with('success', 'Investor details updated successfully.');
+    }
+
+
+    public function history()
+    {
+
+        $withdrawals = Withdrawal::with('user')->get();
+        return view('admin.track', compact('withdrawals'));
+
+
+    }
+
+
+
+
+    public function admin(Request $request, $id)
+    {
+        $withdrawal = Withdrawal::find($id);
+        $withdrawal->status = $request->input('status');
+        $withdrawal->save();
+        return redirect()->back()->with('success', 'Investor details updated successfully.');
+
+
     }
 }

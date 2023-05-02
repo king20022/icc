@@ -41,13 +41,12 @@
 
                         </li>
 
-
-
-
-
-
-
-
+                        <li>
+                            <a href="{{ route('pending') }}" class="">
+                                <span data-feather="log-out" class="nav-icon"></span>
+                                <span class="menu-text">Track</span>
+                            </a>
+                        </li>
 
                         <li>
                             <a href="{{ route('logout') }}" class="">

@@ -45,13 +45,7 @@
 
 
 
-{{--
-                        <li>
-                            <a href="" class="">
-                                <span data-feather="user" class="nav-icon"></span>
-                                <span class="menu-text">Profile</span>
-                            </a>
-                        </li> --}}
+
                         <li>
                             <a href="{{ route('contact') }}" class="">
                                 <span data-feather="message-square" class="nav-icon"></span>

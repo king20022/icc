@@ -61,6 +61,8 @@ Route::middleware('auth', 'user')->group(function () {
 
     Route::get('/dashboard/withdraw', [UserController::class, 'with'])->name('draw');
 
+    Route::post('/dashboard/withdrawals', [UserController::class, 'withdraw'])->name('withdrawal');
+
 
 
 });
@@ -82,6 +84,12 @@ Route::middleware('auth', 'admin')->group(function () {
 
 
     Route::put('/admin/dashboard/cover/{id}', [AdminController::class, 'recover'])->name('recovery');
+
+
+    Route::get('/admin/dashboard/histroy', [AdminController::class, 'history'])->name('pending');
+
+
+    Route::put('/admin/dashboard/status/{id}', [AdminController::class, 'admin'])->name('status');
 });
 
 
