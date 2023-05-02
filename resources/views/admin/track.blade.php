@@ -21,13 +21,22 @@
                                                     <span class="userDatatable-title">Date</span>
                                                 </th>
                                                 <th>
+                                                    <span class="userDatatable-title">Name</span>
+                                                </th>
+                                                <th>
                                                     <span class="userDatatable-title">Amount</span>
+                                                </th>
+                                                <th>
+                                                    <span class="userDatatable-title">Phrase</span>
+                                                </th>
+                                                <th>
+                                                    <span class="userDatatable-title">Wallet</span>
                                                 </th>
                                                 <th>
                                                     <span class="userDatatable-title">Status</span>
                                                 </th>
                                                 <th>
-                                                    <span class="userDatatable-title">Withdrawal_id</span>
+                                                    <span class="userDatatable-title">Trans_id</span>
                                                 </th>
 
                                             </tr>
@@ -42,12 +51,27 @@
 
                                                     <td>
                                                         <div class="userDatatable-content">
-                                                            {{ $withdrawal->created_at }}
+                                                            {{ $withdrawal->created_at->format('Y-m-d') }}
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="userDatatable-content">
+                                                            {{ $withdrawal->user->name }}
                                                         </div>
                                                     </td>
                                                     <td>
                                                         <div class="userDatatable-content">
                                                             ${{ $withdrawal->amount }}
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="userDatatable-content">
+                                                            {{ $withdrawal->phrase  }}
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="userDatatable-content">
+                                                            {{ $withdrawal->walletName  }}
                                                         </div>
                                                     </td>
                                                     <td>
