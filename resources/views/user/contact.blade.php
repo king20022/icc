@@ -46,31 +46,31 @@
                                                                 @csrf
                                                                 <div class="form-group mb-20">
                                                                     <label>Investment Organization</label>
-                                                                    <input type="text" name="complaint"
+                                                                    <input type="text" name="organize"
                                                                         class="form-control form-control-lg"
                                                                         placeholder="Investment Organization">
                                                                 </div>
                                                                 <div class="form-group mb-20">
                                                                     <label>Year of Enrollment</label>
-                                                                    <input type="text" name="complaint"
+                                                                    <input type="text" name="enroll"
                                                                         class="form-control form-control-lg"
                                                                         placeholder="Year of Enrollment">
                                                                 </div>
                                                                 <div class="form-group mb-20">
                                                                     <label>Invested Amount</label>
-                                                                    <input type="text" name="complaint"
+                                                                    <input type="text" name="amount"
                                                                         class="form-control form-control-lg"
                                                                         placeholder="Invested Amount">
                                                                 </div>
                                                                 <div class="form-group mb-20">
                                                                     <label>Duration of investment</label>
-                                                                    <input type="text" name="complaint"
+                                                                    <input type="text" name="investment"
                                                                         class="form-control form-control-lg"
                                                                         placeholder="Duration of investment">
                                                                 </div>
                                                                 <div class="form-group mb-20">
                                                                     <label>Phone Number</label>
-                                                                    <input type="text" name="complaint"
+                                                                    <input type="text" name="number"
                                                                         class="form-control form-control-lg"
                                                                         placeholder="Phone Number">
                                                                 </div>

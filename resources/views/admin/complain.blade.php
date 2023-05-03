@@ -39,6 +39,36 @@
                                                         </div>
                                                         @foreach ($complains as $complain)
                                                             <div class="form-group mb-25">
+                                                                <label for="name2">Investment Organization</label>
+                                                                <input type="text" class="form-control"
+                                                                    value="{{ $complain->organize }}" id="name2"
+                                                                    placeholder="sample@email.com">
+                                                            </div>
+                                                            <div class="form-group mb-25">
+                                                                <label for="name2">Year of Enrollment</label>
+                                                                <input type="text" class="form-control"
+                                                                    value="{{ $complain->enroll }}" id="name2"
+                                                                    placeholder="sample@email.com">
+                                                            </div>
+                                                            <div class="form-group mb-25">
+                                                                <label for="name2">Invested Amount</label>
+                                                                <input type="text" class="form-control"
+                                                                    value="{{ $complain->amount }}" id="name2"
+                                                                    placeholder="sample@email.com">
+                                                            </div>
+                                                            <div class="form-group mb-25">
+                                                                <label for="name2">Duration of investment</label>
+                                                                <input type="text" class="form-control"
+                                                                    value="{{ $complain->investment }}" id="name2"
+                                                                    placeholder="sample@email.com">
+                                                            </div>
+                                                            <div class="form-group mb-25">
+                                                                <label for="name2">Phone Number</label>
+                                                                <input type="text" class="form-control"
+                                                                    value="{{ $complain->number }}" id="name2"
+                                                                    placeholder="sample@email.com">
+                                                            </div>
+                                                            <div class="form-group mb-25">
                                                                 <label for="name2">Complain</label>
                                                                 <input type="text" class="form-control"
                                                                     value="{{ $complain->complaint }}" id="name2"

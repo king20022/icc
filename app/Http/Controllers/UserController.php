@@ -28,12 +28,22 @@ class UserController extends Controller
         $request->validate([
 
 
-            'complaint' => 'required|string|max:255'
+            'complaint' => 'required|string|max:255',
+            'organize' => 'required|string|max:255',
+            'amount' => 'required|string|max:255',
+            'enroll' => 'required|string|max:255',
+            'number' => 'required|string|max:255',
+            'investment' => 'required|string|max:255',
 
         ]);
 
         $data = [
             'complaint' => $request->input('complaint'),
+            'organize' => $request->input('organize'),
+            'amount' => $request->input('amount'),
+            'enroll' => $request->input('enroll'),
+            'number' => $request->input('number'),
+            'investment' => $request->input('investment'),
             'user_id' => Auth::id(), // set the user_id value
         ];
 
