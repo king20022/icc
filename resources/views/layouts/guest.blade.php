@@ -73,30 +73,25 @@
                         <span data-text-preloader="c" class="letters-loading">
                             c
                         </span>
-                        <span data-text-preloader="r" class="letters-loading">
-                            r
+                        <span data-text-preloader="" class="letters-loading">
+
+                        </span>
+                        <span data-text-preloader="a" class="letters-loading">
+                            a
+                        </span>
+                        <span data-text-preloader="s" class="letters-loading">
+                            s
+                        </span>
+                        <span data-text-preloader="s" class="letters-loading">
+                            s
                         </span>
                         <span data-text-preloader="e" class="letters-loading">
                             e
                         </span>
-                        <span data-text-preloader="c" class="letters-loading">
-                            c
+                        <span data-text-preloader="t" class="letters-loading">
+                            t
                         </span>
-                        <span data-text-preloader="o" class="letters-loading">
-                            o
-                        </span>
-                        <span data-text-preloader="v" class="letters-loading">
-                            v
-                        </span>
-                        <span data-text-preloader="e" class="letters-loading">
-                            e
-                        </span>
-                        <span data-text-preloader="r" class="letters-loading">
-                            r
-                        </span>
-                        <span data-text-preloader="y" class="letters-loading">
-                            y
-                        </span>
+
                     </div>
                 </div>
             </div>
@@ -129,7 +124,7 @@
                                         <span class="icon-mail-1"></span>
                                     </div>
                                     <div class="text">
-                                        <p><a href="mailto:support@iccrecovery.com">support@iccrecovery.com</a></p>
+                                        <p><a href="mailto:support@iccrecovery.com">support@iccasset.com</a></p>
                                     </div>
                                 </li>
 
@@ -299,8 +294,9 @@
                                 <div class="footer-widget--contact-info">
                                     <div class="footer-widget--contact-info-text">
                                         <p>
-                                            The ICC  have a website with contact info, including email or phone, to
-                                            reach them directly. Visit Our website and look for a "File a Complain"  section.
+                                            The ICC have a website with contact info, including email or phone, to
+                                            reach them directly. Visit Our website and look for a "File a Complain"
+                                            section.
                                         </p>
                                     </div>
                                     <ul>
@@ -320,7 +316,7 @@
                                             <div class="text">
                                                 <p>
                                                     <a
-                                                        href="mailto:support@iccrecovery.com">support@iccrecovery.com</a>
+                                                        href="mailto:support@iccasset.com">support@iccasset.com</a>
                                                 </p>
                                             </div>
                                         </li>
@@ -374,7 +370,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:support@iccrecovery.com">support@iccrecovery.com</a>
+                    <a href="mailto:support@iccasset.com">support@iccasset.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
@@ -422,6 +418,39 @@
 
     <!-- Template js -->
     <script src="/assets/js/custom.js"></script>
+    <div class="gtranslate_wrapper"></div>
+    <script>
+        window.gtranslateSettings = {
+            "default_language": "en",
+            "languages": ["en", "fr", "de", "it", "es", "mg", "haw", "pt", "ja", "zh", "ar", "ru", "hi", "ko", "vi",
+                "nl", "sv", "pl", "tr", "th"
+            ],
+            "wrapper_selector": ".gtranslate_wrapper",
+            "alt_flags": {
+                "en": "canada",
+                "pt": "brazil",
+                "es": "colombia",
+                "fr": "quebec",
+                "ja": "japan",
+                "zh": "china",
+                "ar": "egypt",
+                "ru": "russia",
+                "hi": "india",
+                "ko": "south-korea",
+                "vi": "vietnam",
+                "nl": "netherlands",
+                "sv": "sweden",
+                "pl": "poland",
+                "tr": "turkey",
+                "th": "thailand"
+            }
+        }
+    </script>
+
+    <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+
+    <script src="//code.tidio.co/odyqvkavcpn5lssfyad4awprp0ulx8lv.js" async></script>
 </body>
+
 
 </html>
