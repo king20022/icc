@@ -447,7 +447,7 @@
         }
     </script> --}}
 
-    <div style="position:fixed;bottom:25%;left:2%;z-index:999999;" id="gtranslate_wrapper">
+    <div style="position:fixed;bottom:85%;left:2%;z-index:99999999;" id="gtranslate_wrapper">
         <!-- GTranslate: https://gtranslate.io/ -->
         <select onchange="doGTranslate(this);" class="notranslate" id="gtranslate_selector"
             aria-label="Website Language Selector">
